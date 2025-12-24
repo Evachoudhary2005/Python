@@ -1,0 +1,17 @@
+'''
+Sample Input 0
+the quick brown fox jumps over the lazy dog
+Sample Output 0
+0
+
+Sample Input 1
+hello world!
+Sample Output 1
+19
+'''
+
+
+s = input()
+total = set(ch for ch in s.lower() if 'a' <= ch <= 'z')
+missing_count = 26 - len(total)
+print(missing_count)
