@@ -1,0 +1,9 @@
+num1=-10.0
+num2=4.0
+##print("sum=",num1+num2)#14
+##print("sub=",num1-num2)#6
+##print("pro=",num1*num2)
+##print("exp=",num1**num2)
+##print("div=",num1/num2)
+##print("floor div=",num1//num2)
+##print("modl=",num1%num2)
