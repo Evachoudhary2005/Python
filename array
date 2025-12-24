@@ -1,0 +1,16 @@
+"""
+arr =[10,20,30,40,50,60,70,80,90]
+index = 0
+while(index<len(arr)):
+    print(arr[index])
+    index+=1
+
+
+for i in[1,1,1,1,1]:
+    print("Hello")
+
+for temp in range(1,11):
+    print(temp,end=" ")
+"""
+for temp in range(5,101,5):
+    print(temp,end=" ")
