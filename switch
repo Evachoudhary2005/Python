@@ -1,0 +1,44 @@
+"""char = input("Enter a char: ").lower()
+if len(char)==1:
+    match char:
+        case 'a':print("Vowel")
+        case 'e':print("Vowel")
+        case 'i':print("Vowel")
+        case 'o':print("Vowel")
+        case 'u':print("Vowel")
+        case _:print("Consonant")
+else:
+    print("Invalid character!")
+
+
+init=1
+while init<=5:
+    print(init,"Hello World")
+    init+=1
+
+while True:
+    print("Hello World")
+    choice = input("Do you want to printt it again? y/n ")
+    if choice=='n':
+        break
+
+
+import random
+num=random.randint(61,120)
+print(num)
+"""
+
+import random
+num=random.randint(1,100)
+c=0
+while(True):
+    c+=1
+    guess=int(input("Choose a number: "))
+    if(guess<num):
+        print("Number is too Low")
+    elif(guess>num):
+        print("Number is too High")
+    else:
+        break
+print("Congratulations! You guesses the number in",c,"attempts")
+    
