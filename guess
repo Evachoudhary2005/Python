@@ -1,0 +1,13 @@
+import random
+num=random.randint(1,100)
+c=0
+while(True):
+    c+=1
+    guess=int(input("Choose a number: "))
+    if(guess<num):
+        print("Number is too Low")
+    elif(guess>num):
+        print("Number is too High")
+    else:
+        break
+print("Congratulations! You guesses the number in",c,"attempts")
